@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="nads pict.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Portofolio Sit.Nadyah</title>
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #133E87;
+            background: #CBDCEB;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .header {
+            background: #D9EAFD;
+            color: #133E87;
+            padding: 16px;
+            text-align: center;
+        }
+
+        .header nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 16px 0 0;
+        }
+
+        .header nav ul li {
+            display: inline;
+            margin: 0 16px;
+        }
+
+        .header nav ul li a {
+            color: #133E87;
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 32px;
+            margin: 16px auto;
+            max-width: 800px;
+            background: #F3F3E0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-section {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+
+        .profile-pic {
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #133E87;
+        }
+
+        .about-text {
+            flex: 1;
+        }
+
+        .gallery {
+            flex-basis: 100%;
+            display: flex;
+            overflow-x: auto;
+            margin-bottom: 20px;
+            gap: 16px;
+        }
+
+        .gallery-item {
+            text-align: center;
+            flex: 1 0 200px;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .gallery-item img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery-item p {
+            margin-top: 8px;
+            font-size: 14px;
+        }
+
+        .skill-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 32px;
+        }
+
+        .skill-column {
+            flex: 1;
+        }
+
+        .skill-column h3 {
+            font-size: 20px;
+            margin-bottom: 16px;
+            color: #133E87;
+        }
+
+        .skill-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skill-list li {
+            margin: 8px 0;
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+            font-size: 16px;
+        }
+
+        .contact-icons {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-top: 16px;
+        }
+
+        .contact-link {
+            font-size: 40px;
+            color: #333;
+            transition: transform 0.2s ease, color 0.2s ease;
+        }
+
+        .contact-link:hover {
+            transform: scale(1.2);
+        }
+
+        .whatsapp {
+            color: #25D366;
+        }
+
+        .linkedin {
+            color: #0077B5;
+        }
+
+        .email {
+            color: #D44638;
+        }
+
+        .footer {
+            background: #D9EAFD;
+            color: #133E87;
+            text-align: center;
+            padding: 16px 0;
+            margin-top: 32px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Sitti Nadiyah</h1>
+        <p>Informatics and Computer Engineering Education Students</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="section about-section">
+            <div class="about-content">
+                <img src="nads pict.jpg" alt="Sitti Nadiyah" class="profile-pic">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm Sitti Nadiyah, a 6th-semester student in Informatics and Computer Engineering Education at Universitas Negeri Makassar. As a creative and detail-oriented individual, I am eager to learn new things and believe in my own abilities. My experience in discussion forums and communities has sharpened my communication and leadership skills. I am committed to developing innovative teaching methods based on technology in the field of informatics and computing.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects and Experience</h2>
+            <p>Please, Click the Image to Visit the Project.</p>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <a href="https://www.figma.com/proto/XlVb1QsepTiH5NjE0w9b5i/MOCKUP-GLOW-GEN-Z?node-id=31-8&p=f&t=ouhAZBifFdS0axuO-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=31%3A8">
+                        <img src="mockup.jpg" alt="Project 1">
+                        <p>App Mockup Designer – Glow Gen Z (Skincare e-Commerce App).</p>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="https://xicecubeee.github.io/AOT-by-sitnadyah/">
+                        <img src="webaot.jpg" alt="Project 2">
+                        <p>Dynamic Website Developer – Attack on Titan (Web Project).</p>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="https://www.canva.com/design/DAGdk_MvaVU/tJQ0VeSmYRoLfgzPL9hyRw/watch?utm_content=DAGdk_MvaVU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7bca7a83e2">
+                        <img src="apprent.jpg" alt="Project 3">
+                        <p>Mobile App Developer – Rent Cars Makassar (Car Rental App).</p>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="https://youtu.be/9E30eoLXm4w">
+                        <img src="vidkm.jpg" alt="Project 4">
+                        <p>Publication and Documentation Division – Final Task Video Editor for Kampus Mengajar.</p>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <img src="gmd.jpg" alt="Project 5">
+                    <p>Inspirational tutor in the Gerakan Mengajar Desa - Volunteer Experience.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificates" class="section">
+            <h2>Certificates</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="sertifgmd.jpg" alt="Certificate 1">
+                    <p>Inspirational tutor in the Village Teaching Expedition – Gerakan Mengajar Desa.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="sertifpic.jpg" alt="Certificate 2">
+                    <p>Class PIC (Person in Charge) in the Sharing Inspiration program: Preparation for the CPNS Lecturer Position Competency Selection (SKB).</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="sertifkm.jpg" alt="Certificate 3">
+                    <p>Teaching Partner in the Kampus Mengajar Program – Independent Learning, Independent Campus (MBKM).</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="sertifnarsum.jpg" alt="Certificate 4">
+                    <p>Speaker at the Digital Education Creation Workshop – SDN 04 Sompu Learning Community.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skill" class="section">
+            <h2>Skills</h2>
+            <div class="skill-container">
+                <div class="skill-column">
+                    <h3>Hard Skills</h3>
+                    <ul class="skill-list">
+                        <li>Office Tools: Word, PowerPoint, Excel</li>
+                        <li>Programming: HTML, CSS, Java, SQL</li>
+                        <li>Mobile Dev: Android Studio</li>
+                        <li>Design: Canva, CapCut, Figma</li>
+                    </ul>
+                </div>
+                <div class="skill-column">
+                    <h3>Soft Skills</h3>
+                    <ul class="skill-list">
+                        <li>Teamwork</li>
+                        <li>Leadership</li>
+                        <li>Communication</li>
+                        <li>Critical Thinking & Time Management</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <p>Please, click the link below!</p>
+            <div class="contact-icons">
+                <a href="https://wa.me/+6281958902838" target="_blank" class="contact-link whatsapp">
+                    <i class="fa fa-whatsapp"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sitnadyah" target="_blank" class="contact-link linkedin">
+                    <i class="fa fa-linkedin-square"></i>
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sitnadyah1494@gmail.com" class="contact-link email">
+                    <i class="fa fa-envelope"></i>
+                </a>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2025 Sitti Nadiyah. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
